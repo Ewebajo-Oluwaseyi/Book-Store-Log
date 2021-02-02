@@ -6,10 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "book-store-inventory": "npm start --prefix book-store-inventory",
-    "book-store-inventoryinstall": "npm install --prefix book-store-inventory",
-    "dev": "concurrently \"npm run server\" \"npm run book-store-inventory\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix book-store-inventory && npm run build --prefix book-store-inventory"
+    "bookStoreInventory": "npm start --prefix bookStoreInventory",
+    "bookStoreInventoryinstall": "npm install --prefix bookStoreInventory",
+    "dev": "concurrently \"npm run server\" \"npm run bookStoreInventory\""
   },
   "keywords": [],
   "author": "",

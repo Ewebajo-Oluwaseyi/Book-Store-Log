@@ -8,7 +8,8 @@
     "server": "nodemon server.js",
     "bookStoreInventory": "npm start --prefix bookStoreInventory",
     "bookStoreInventoryinstall": "npm install --prefix bookStoreInventory",
-    "dev": "concurrently \"npm run server\" \"npm run bookStoreInventory\""
+    "dev": "concurrently \"npm run server\" \"npm run bookStoreInventory\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix bookStoreInventory && npm run build --prefix bookStoreInventory"
   },
   "keywords": [],
   "author": "",
